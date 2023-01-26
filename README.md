@@ -2,9 +2,7 @@
 
 ## 1-1. 주제
 
-
-💡 **<네이버 웹툰>의 “베스트도전” 카테고리에서 연재 중인 작품들이 정식 연재로 승격될 확률을 예측하는 모델 구현**
-
+💡 <**네이버 웹툰>의 “베스트도전” 카테고리에서 연재 중인 작품들이 정식 연재로 승격될 확률을 예측하는 모델 구현**
 
 ‘작품’과 관련된 데이터(별점, 댓글, 조회 수, 등)를 기반으로 주요 지표를 분석하고 분석 결과를 제공하여 작가 및 담당자에게 해당 작품의 현황 파악 및 개선의 근거를 제공하고자 한다.
 
@@ -14,13 +12,13 @@
 
 대한민국 최초로 시리즈물 모두 1,000만 관객을 기록한 영화 시리즈 ‘신과 함께’, 대한민국 군대의 어두운 면을 리얼하게 다루며 많은 사람들에게 충격을 주었던 넷플릭스 드라마 시리즈 ‘D.P’, 직장인들의 사회 생활의 현실을 가감없이 보여주었던 TV 드라마 시리즈 ‘미생’. 이 작품들의 공통점들은 대중들의 엄청난 호평을 받았으며, 동시에 **원작 작품인 ‘웹툰’을 각색**했다는 점이다. 
 
-![인기 웹툰을 원작으로 하는 영화 및 드라마 리스트](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2bf14e75-9212-46dd-a78c-1e5c11871c18/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.27.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T044107Z&X-Amz-Expires=86400&X-Amz-Signature=0f3dac47d1ef2aacfa96b9957f128a6869a101f8a79520c4ff7482a3c945c6c5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-12-22%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB%252011.28.27.png%22&x-id=GetObject)
+![인기 웹툰을 원작으로 하는 영화 및 드라마 리스트 ]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2bf14e75-9212-46dd-a78c-1e5c11871c18/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.27.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2bf14e75-9212-46dd-a78c-1e5c11871c18/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.27.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T044502Z&X-Amz-Expires=86400&X-Amz-Signature=ce10fa688ab52326ae0ef6fe61639cbe43ac1d40cc968b29210fabb47bb4b133&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-12-22%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB%252011.28.27.png%22&x-id=GetObject))
 
 인기 웹툰을 원작으로 하는 영화 및 드라마 리스트 
 
 **웹툰(Webtoon)**은 PC 및 모바일 등에서 인터넷을 통해 자유롭게 만화를 즐길 수 있는 콘텐츠 서비스를 의미하며, 현재 국내 만화 시장의 대표적인 장르이다. 2000년대 초에 등장하여 많은 이들의 호응에 힘입어 규모가 급속도로 팽창한 시장 중 하나이다. 국내 웹툰 업체에서 가장 큰 규모를 자랑하는 네이버 웹툰의 월 월간 활성 사용자 수(MAU)의 [최근 5년 실적을 조사한 결과](https://news.nate.com/view/20220522n01185) 2017년도 4600만명에서 2021년을 기준으로 1억 8천만명으로 급격한 성장세를 보이고 있다. 
 
-![Untitled]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f451d3a4-c021-4b52-866a-df9a06cb7c54/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f451d3a4-c021-4b52-866a-df9a06cb7c54/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T044233Z&X-Amz-Expires=86400&X-Amz-Signature=485563c0a7837167ce24f08b6a9cf10c7ea831e48c20478b88e9c0a6724bbf01&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject))
+![image](https://user-images.githubusercontent.com/115910833/214760381-c68c09d8-1e0b-49c2-9ad3-9b5b8ce55bd6.png)
 
 또한, 최근에는 웹툰 플랫폼이 해외 시장을 겨냥해 해외 진출을 시도하고 있고, 해외 디지털 만화 시장 선점에도 성과를 보이고 있다. 네이버웹툰 관계자는 "1억8000만명의 월간 이용자 중 80%가 해외 이용자"라고 밝혔으며, 이어 "**한국에서 검증된 웹툰을 해외에 선보이는 것을 넘어 현지 웹툰 산업을 이끌 것**"이라고 말했다.
 
@@ -32,7 +30,7 @@
 
 앞서 서술한 바와 같이, 네이버는 아마추어 작가와 퍼블리셔 모두에게 윈-윈이 되는 도전만화 시스템을 구축하였다. 하지만, 네이버가 어떠한 조건을 갖춘 작품을 승격 및 정식 연재 계약을 하는지는 대략적인 가이드만 있을 뿐, 사실상 알기가 어려운 상황이다. 또한, 베스트 도전 만화에서 네이버 정식 연재가 확정된 작품수는 [**약 6.2%(17년 7월 기준)**](https://www.nocutnews.co.kr/news/4823908)으로 매우 적은 수의 작가 지망생만이 네이버 웹툰의 정식 만화가로 등재되는 것이 현실이다. 작가 지망생들은 구체적으로 어떤 조건을 갖춰야하는지도 모르고 매우 희박한 확률의 정식 연재 하나를 바라보고 무일푼으로 작품을 연재해나가는 상황이 비일비재하다. 만약, 작가 지망생이 정식 연재 기준 지표를 알 수 있다면 본인 작품의 지표와 비교를 통해 정식 연재를 하기 위해서는 어떠한 점들을 수정해야하는지를 보다 효과적으로 파악할 수 있을 것이다.
 
-![베스트 도전만화에서 정식 연재로 승격되는 기준]([https://help.naver.com/service/5635/contents/18740?lang=ko)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e116e33-9428-4a8c-8a90-9b8431f7483a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_9.47.59.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6e116e33-9428-4a8c-8a90-9b8431f7483a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_9.47.59.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T044309Z&X-Amz-Expires=86400&X-Amz-Signature=fc548d2ea478302cf04f24f42ccfd693b7a928b4055819cb87813bc7a1450e7f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-12-22%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB%25209.47.59.png%22&x-id=GetObject))
+![image](https://user-images.githubusercontent.com/115910833/214760456-b7ffcef7-8b99-4ba5-b50c-e04143324d35.png)
 
 [베스트 도전만화에서 정식 연재로 승격되는 기준](https://help.naver.com/service/5635/contents/18740?lang=ko)
 
