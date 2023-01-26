@@ -12,9 +12,9 @@
 
 대한민국 최초로 시리즈물 모두 1,000만 관객을 기록한 영화 시리즈 ‘신과 함께’, 대한민국 군대의 어두운 면을 리얼하게 다루며 많은 사람들에게 충격을 주었던 넷플릭스 드라마 시리즈 ‘D.P’, 직장인들의 사회 생활의 현실을 가감없이 보여주었던 TV 드라마 시리즈 ‘미생’. 이 작품들의 공통점들은 대중들의 엄청난 호평을 받았으며, 동시에 **원작 작품인 ‘웹툰’을 각색**했다는 점이다. 
 
-![인기 웹툰을 원작으로 하는 영화 및 드라마 리스트 ]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2bf14e75-9212-46dd-a78c-1e5c11871c18/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.27.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2bf14e75-9212-46dd-a78c-1e5c11871c18/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.27.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T044502Z&X-Amz-Expires=86400&X-Amz-Signature=ce10fa688ab52326ae0ef6fe61639cbe43ac1d40cc968b29210fabb47bb4b133&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-12-22%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB%252011.28.27.png%22&x-id=GetObject))
+![image](https://user-images.githubusercontent.com/115910833/214760517-ed6cc7fc-5e78-4b34-b0a5-0f3a9732b61b.png)
 
-인기 웹툰을 원작으로 하는 영화 및 드라마 리스트 
+                                     인기 웹툰을 원작으로 하는 영화 및 드라마 리스트 
 
 **웹툰(Webtoon)**은 PC 및 모바일 등에서 인터넷을 통해 자유롭게 만화를 즐길 수 있는 콘텐츠 서비스를 의미하며, 현재 국내 만화 시장의 대표적인 장르이다. 2000년대 초에 등장하여 많은 이들의 호응에 힘입어 규모가 급속도로 팽창한 시장 중 하나이다. 국내 웹툰 업체에서 가장 큰 규모를 자랑하는 네이버 웹툰의 월 월간 활성 사용자 수(MAU)의 [최근 5년 실적을 조사한 결과](https://news.nate.com/view/20220522n01185) 2017년도 4600만명에서 2021년을 기준으로 1억 8천만명으로 급격한 성장세를 보이고 있다. 
 
@@ -32,7 +32,7 @@
 
 ![image](https://user-images.githubusercontent.com/115910833/214760456-b7ffcef7-8b99-4ba5-b50c-e04143324d35.png)
 
-[베스트 도전만화에서 정식 연재로 승격되는 기준](https://help.naver.com/service/5635/contents/18740?lang=ko)
+                                     [베스트 도전만화에서 정식 연재로 승격되는 기준](https://help.naver.com/service/5635/contents/18740?lang=ko)
 
 따라서, 본 프로젝트에서는 **특정 베스트 도전 만화가 정식 연재 될 확률을 구하고 정식 연재 작품의 지표와 비교하여 작가에 작품에 대한 전반적인 지표 분석 결과를 주는 것**이 목표다. 이를 위해 다음과 같은 같은 작업(활동)을 할 예정이다.
 
