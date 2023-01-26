@@ -118,11 +118,10 @@ raw 데이터(만화 페이지에서 수집할 수 있는 정보들을 거의 �
 = `댓글df[댓글df["반응"]==긍정]["비공감수"].sum() + 댓글df[댓글df["반응"]==부정]["공감수"].sum()`
 
 ## 3-7. 결과물 상세
-
-[For PC users](https://jeaseo.github.io/)
+[For PC users](https://jeaseo.github.io/) /
 [How to use(Youtube)](https://youtu.be/3ZNfjeJ7WxM)
 
-[For mobile users](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/)
+[For mobile users](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/) /
 [How to use(Youtube)](https://www.youtube.com/watch?v=3ZNfjeJ7WxM)
 
 ### How to use(mobile version)
