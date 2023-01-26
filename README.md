@@ -140,18 +140,15 @@ raw 데이터(만화 페이지에서 수집할 수 있는 정보들을 거의 �
 - 찾고자 하는 웹툰명을 입력 후, 버튼을 누르면 입력값을 포함하는 웹툰 리스트를 썸네일과 함께 반환함
 - `일정 키워드` 만으로도 사용자가 분석하고자 하는 작품을 선택할 수 있도록 함
 
-<img src="https://user-images.githubusercontent.com/115910833/214765525-0f29586f-2fba-40f8-a00c-a538a250d106.png"  width="300" height="600"/></left>
+![image](https://user-images.githubusercontent.com/115910833/214772814-abdb262f-c345-4b6d-b7ab-b78198950833.png)
 
-<img src="https://user-images.githubusercontent.com/115910833/214765541-b51d79cb-2c25-457c-a6d2-2468063688a6.png"  width="300" height="600"/></right>
 
 **Section1: 정식연재 가능 확률 도출** 
 
 - 승격 확률과 Feature importance로 추출한 피처에 한하여 대략적인 분석 결과를 보여줌
 - **차트로 비교해보기** 를 눌러보면 더 상세한 분석 결과를 제공함
 
-<img src="https://user-images.githubusercontent.com/115910833/214765576-63912671-3a23-4189-8006-2193b0d24127.png"  width="300" height="300"/>
-
-<img src="https://user-images.githubusercontent.com/115910833/214765587-067f5574-9e9f-4006-a3c6-f94812a20cd4.png"  width="300" height="300"/>
+![image](https://user-images.githubusercontent.com/115910833/214772854-3cff3e9d-5808-4e17-a4f2-54e208d7663d.png)
 
 **Section2: 상세분석**
 
@@ -159,17 +156,14 @@ raw 데이터(만화 페이지에서 수집할 수 있는 정보들을 거의 �
 - 라인 차트로 회차에 따른 데이터를 보여줌
 - 정식연재 된 작품들과 비교할 수 있는 분석결과를 제공
 
-<img src="https://user-images.githubusercontent.com/115910833/214765711-6018dacb-d0b8-420b-bafa-638ccc736c7b.png"  width="300" height="300"/>
+![image](https://user-images.githubusercontent.com/115910833/214772886-5f214066-fc66-4ea2-a65d-2d58996bddf5.png)
 
-<img src="https://user-images.githubusercontent.com/115910833/214765734-f0c20204-ecb9-4b65-9baa-6116fa8705b7.png"  width="300" height="300"/>
 
 **Outro: 작가님들에 격려의 말 + 유용한 통계지표자료 정리**
 
 - 유저(웹툰작가)가  분석 내용을 기반으로 더 좋은 방향으로 나아갈 수 있도록 격려의 말과, 5회차까지의 댓글 작성자 수 및 도움이 될 만한 통계 지표를 제공함.
 
-<img src="https://user-images.githubusercontent.com/115910833/214765804-e2241a9d-f1fe-4e75-bcba-88949c8ce875.png"  width="300" height="300"/>
-
-<img src="https://user-images.githubusercontent.com/115910833/214765824-b93df23f-a5c9-42a6-b5a8-87504a4da226.png"  width="300" height="300"/>
+![image](https://user-images.githubusercontent.com/115910833/214772907-3dd15b73-d628-4092-92e4-e609de8e885c.png)
 
 
 # 4. 프로젝트 회고 및 개선점
