@@ -67,13 +67,13 @@
   - 각 웹툰의 이름, 작가명,  장르, 작품 소개글, 즐겨찾기(하트) 수, 섬네일(주소)
   - 각 웹툰의 회차별 게시일, 조회수, 평점, 평점 인원
   - 각 웹툰의 회차별 댓글, 댓글의 추천/비추천 수
-  - 각 웹툰의 네이버 웹툰에서의 정식연재 여부가 확인된 경우에 대해서 Boolean |
+  - 각 웹툰의 네이버 웹툰에서의 정식연재 여부가 확인된 경우에 대해서 Boolean 
 * 데이터 수집방법 : 크롤링
-* 데이터 출처 
-  * https://comic.naver.com
+* 데이터 출처 : https://comic.naver.com
   * /bestChallenge/list?titleId=웹툰ID&page=페이지
   * /bestChallenge/detail?titleId=웹툰ID&no=회차
-  * /search?m=bestChallenge&keyword=검색어&type=all&page=페이지 |
+  * /search?m=bestChallenge&keyword=검색어&type=all&page=페이지 
+
 ## 3-2. 데이터 샘플
 
 raw 데이터(만화 페이지에서 수집할 수 있는 정보들을 거의 다 가져옴)를 필요한 변수를 정해 가져와서 아래 데이터로 가공함. 
