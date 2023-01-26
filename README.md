@@ -144,9 +144,9 @@ raw 데이터(만화 페이지에서 수집할 수 있는 정보들을 거의 �
 - 찾고자 하는 웹툰명을 입력 후, 버튼을 누르면 입력값을 포함하는 웹툰 리스트를 썸네일과 함께 반환함
 - `일정 키워드` 만으로도 사용자가 분석하고자 하는 작품을 선택할 수 있도록 함
 
-<img src="https://user-images.githubusercontent.com/115910833/214765525-0f29586f-2fba-40f8-a00c-a538a250d106.png"  width="300" height="300"/>
+<img src="https://user-images.githubusercontent.com/115910833/214765525-0f29586f-2fba-40f8-a00c-a538a250d106.png"  width="300" height="600"/></left>
 
-<img src="https://user-images.githubusercontent.com/115910833/214765541-b51d79cb-2c25-457c-a6d2-2468063688a6.png"  width="300" height="300"/>
+<img src="https://user-images.githubusercontent.com/115910833/214765541-b51d79cb-2c25-457c-a6d2-2468063688a6.png"  width="300" height="600"/></right>
 
 **Section1: 정식연재 가능 확률 도출** 
 
