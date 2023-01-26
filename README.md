@@ -16,7 +16,7 @@
 
 ![인기 웹툰을 원작으로 하는 영화 및 드라마 리스트](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2bf14e75-9212-46dd-a78c-1e5c11871c18/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.27.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230126T044107Z&X-Amz-Expires=86400&X-Amz-Signature=0f3dac47d1ef2aacfa96b9957f128a6869a101f8a79520c4ff7482a3c945c6c5&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-12-22%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB%252011.28.27.png%22&x-id=GetObject)
 
-                   인기 웹툰을 원작으로 하는 영화 및 드라마 리스트 
+인기 웹툰을 원작으로 하는 영화 및 드라마 리스트 
 
 **웹툰(Webtoon)**은 PC 및 모바일 등에서 인터넷을 통해 자유롭게 만화를 즐길 수 있는 콘텐츠 서비스를 의미하며, 현재 국내 만화 시장의 대표적인 장르이다. 2000년대 초에 등장하여 많은 이들의 호응에 힘입어 규모가 급속도로 팽창한 시장 중 하나이다. 국내 웹툰 업체에서 가장 큰 규모를 자랑하는 네이버 웹툰의 월 월간 활성 사용자 수(MAU)의 [최근 5년 실적을 조사한 결과](https://news.nate.com/view/20220522n01185) 2017년도 4600만명에서 2021년을 기준으로 1억 8천만명으로 급격한 성장세를 보이고 있다. 
 
