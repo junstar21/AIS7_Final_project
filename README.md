@@ -32,7 +32,7 @@
 
 ![image](https://user-images.githubusercontent.com/115910833/214760456-b7ffcef7-8b99-4ba5-b50c-e04143324d35.png)
 
-                                     [베스트 도전만화에서 정식 연재로 승격되는 기준](https://help.naver.com/service/5635/contents/18740?lang=ko)
+                               [베스트 도전만화에서 정식 연재로 승격되는 기준](https://help.naver.com/service/5635/contents/18740?lang=ko)
 
 따라서, 본 프로젝트에서는 **특정 베스트 도전 만화가 정식 연재 될 확률을 구하고 정식 연재 작품의 지표와 비교하여 작가에 작품에 대한 전반적인 지표 분석 결과를 주는 것**이 목표다. 이를 위해 다음과 같은 같은 작업(활동)을 할 예정이다.
 
