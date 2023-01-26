@@ -119,22 +119,13 @@ raw 데이터(만화 페이지에서 수집할 수 있는 정보들을 거의 �
 
 ## 3-7. 결과물 상세
 
-**`링크1`**  [https://jeaseo.github.io/](https://jeaseo.github.io/)
+[For PC users](https://jeaseo.github.io/)
+[How to use(Youtube)](https://youtu.be/3ZNfjeJ7WxM)
 
-[작전명: 띵작을 찾아서](https://jeaseo.github.io/)
+[For mobile users](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/)
+[How to use(Youtube)](https://www.youtube.com/watch?v=3ZNfjeJ7WxM)
 
-**링크1의 시연 유튜브 링크**
-
-[멋쟁이사자처럼 AI스쿨 7기 파이널프로젝트 - 웹툰발굴단](https://youtu.be/3ZNfjeJ7WxM)
-
-**`링크2`** 
-
-[웹툰발굴단, 작전명: 띵작을 찾아서](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/)
-
-**링크2의 시연 유튜브 링크**
-
-[멋쟁이사자처럼 AI스쿨 7기 파이널프로젝트 - 웹툰발굴단](https://www.youtube.com/watch?v=3ZNfjeJ7WxM)
-
+### How to use(mobile version)
 **Intro: 승격 예측 확률을 알고 싶은 웹툰명을 검색한다**
 
 - 찾고자 하는 웹툰명을 입력 후, 버튼을 누르면 입력값을 포함하는 웹툰 리스트를 썸네일과 함께 반환함
@@ -219,12 +210,12 @@ A. 네 실제로 각각으로 볼때보다 만든 파생변수가 더 높은 중
 
 ## 4-2. 회고(개인의 문제인식~극복과정)
 
-* Keep
+### Keep
   - 사소한 부분이라도 논리적인 검증을 통해 해당 파트가 프로젝트와 부합하는지 확인
   - 넓은 시야로 프로젝트의 전체적인 진행방향을 점검하고, 세부적인 내용들은 논의를 통해 정하는 방법
   - 수업 시간에 배웠던 내용들을 직접 활용할 수 있었고, 새로운 내용들도 공부 할 수 있었음
   - 2주라는 기간동안 몰입해서 프로젝트를 진행하는 경험을 해서 좋았음
-* Problem :
+### Problem :
   - 현실적인 제약으로 인해 프로젝트 초기 구상과 방향이 조금씩 달라진 점
   - 더 좋은 성능을 내는 모델의 구현을 실행하지 못한점
   - 알고리즘에 대한 역량이 부족하여 일부 작업에서는 하드 코딩을 수행했던 점
@@ -232,7 +223,7 @@ A. 네 실제로 각각으로 볼때보다 만든 파생변수가 더 높은 중
   - 프로젝트의 수행 여부를 떠나 모든 면에서 역량을 더 키워야 한다는 것을 느낌
   - 간혹 다른 팀원들이 어떤 작업을 했거나 진행중인지에 대한 현황 파악이 어려웠음
   - 프로젝트 마감일에 대한 cross-check가 되지 않아 일정에 차질이 생겼음
-* Try :
+### Try :
   - 연재의 완료 유무를 떠난 전체 데이터를 가진 데이터셋의 모델링
   - 도전 -> 베스트 도전 승격 확률을 예측하는 시스템을 구축
   - 객관성이 입증된 웹툰 감성 분류 사전 제작 및 배포
